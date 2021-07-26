@@ -1,5 +1,6 @@
 import React from 'react'
 import './common/style/reset.css'
+import About from './components/About'
 import Header from './components/Header'
 import MainPage from './components/MainPage'
 import Portfolio from './components/Portfolio'
@@ -10,6 +11,7 @@ function App () {
   <MainPage />
   <Services />
   <Portfolio />
+  <About />
   </>
 }
 

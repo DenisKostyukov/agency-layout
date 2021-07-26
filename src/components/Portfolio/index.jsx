@@ -9,6 +9,7 @@ import lines from './images/4.jpg';
 import southwest from './images/5.jpg';
 import window from './images/6.jpg';
 import PortfolioItem from './PortfolioItem';
+import '../../common/style/mainStyle.sass';
 function Portfolio () {
   return (
     <>
