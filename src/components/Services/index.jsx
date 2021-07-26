@@ -8,6 +8,7 @@ import {
   faLaptop,
   faLock,
 } from '@fortawesome/free-solid-svg-icons';
+import '../../common/style/mainStyle.sass';
 import style from './Services.module.sass';
 function Services () {
   return (
