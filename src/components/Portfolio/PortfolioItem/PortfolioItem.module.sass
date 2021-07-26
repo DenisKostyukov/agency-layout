@@ -1,0 +1,51 @@
+.portfolioItem
+  cursor: pointer
+  max-width: 300px
+  padding: 0 12px
+  margin-bottom: 24px
+  &:hover
+    .plusIcon 
+      opacity: 1
+      transition: all ease-in-out .25s
+    .portfolioItemHover
+      transition: all ease-in-out .25s
+      background: rgba(255, 200, 0, 0.9)
+.imageWrapper
+  position: relative
+
+.portfolioItemHover
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  transition: opacity ease-in-out .25s
+  background: rgba(255, 200, 0, 0)
+
+.plusIcon
+  opacity: 0
+  transition: all ease-in-out .25s
+  font-size: 60px
+  color: #fff
+
+.image
+  width: 100%
+
+.title
+  font-family: "MontSerrat"
+  text-transform: capitalize
+  font-weight: bold
+  line-height: 1.75
+  font-size: 24px
+
+.description
+  font-family: "Roboto Slab"
+  color: #6c757d
+  text-transform: capitalize
+
+.content
+  background-color: #fff
+  padding: 24px
