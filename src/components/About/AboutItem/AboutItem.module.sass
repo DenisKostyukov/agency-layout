@@ -1,0 +1,46 @@
+.aboutItem
+  display: flex
+  width: 40%
+  display: flex
+  line-height: 1.75
+  clear: both
+  &::after
+    position: absolute
+    display: block
+    content: ""
+    z-index: -1
+    left: 50%
+    width: 2px
+    margin-left: -1px
+    background-color: #E9ECEF
+    height: 70%
+  &:not(:last-child)
+    margin-bottom: 100px
+  &:nth-child(2n)
+    float: right
+    text-align: left
+  &:nth-child(2n+1)
+    float: left
+    text-align: right
+
+.image 
+  position: absolute
+  max-width: 170px
+  max-height: 170px
+  left: 50%
+  margin-left: -85px
+  height: auto
+  border: 7px solid #e9ecef
+  border-radius: 50%
+ 
+
+.date,.title
+  font-family: "Montserrat"
+  font-size: 24px
+  font-weight: bold
+
+.description
+  font-family: "Roboto Slab"
+  color: #6c757d
+.content
+  padding: 20px
