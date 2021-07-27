@@ -2,6 +2,7 @@ import React from 'react'
 import './common/style/reset.css'
 import About from './components/About'
 import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import MainPage from './components/MainPage'
 import Partners from './components/Partners'
@@ -18,6 +19,7 @@ function App () {
   <Team />
   <Partners />
   <Contacts />
+  <Footer />
   </>
 }
 
