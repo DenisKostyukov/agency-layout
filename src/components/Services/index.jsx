@@ -17,7 +17,7 @@ function Services () {
         <div className='container'>
           <div className={style.servicesInner}>
             <BlockTitle title='services' />
-            <BlockDescription descrition='Lorem ipsum dolor sit amet consectetur.' />
+            <BlockDescription description='Lorem ipsum dolor sit amet consectetur.' />
             <div className={style.serviceList}>
               <ServiceItem
                 icon={faShoppingCart}

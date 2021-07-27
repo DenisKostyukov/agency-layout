@@ -17,7 +17,7 @@ function Portfolio () {
         <div className='container'>
           <div className={style.portfolioInner}>
             <BlockTitle title="portfolio"/>
-            <BlockDescription descrition="Lorem ipsum dolor sit amet consectetur."/>
+            <BlockDescription description="Lorem ipsum dolor sit amet consectetur."/>
             <div className={style.portfolioList}>
               <PortfolioItem image={threads} title="threads" description="illustration"/>
               <PortfolioItem image={explore} title="explore" description="graphic design"/>

@@ -15,7 +15,7 @@ function About () {
         <div className='container'>
           <div className={style.aboutInner}>
             <BlockTitle title='about' />
-            <BlockDescription descrition='Lorem ipsum dolor sit amet consectetur.' />
+            <BlockDescription description='Lorem ipsum dolor sit amet consectetur.' />
             <div className={style.aboutItems}>
               <AboutItem
                 image={first}

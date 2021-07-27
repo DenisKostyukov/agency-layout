@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './BlockDescription.module.sass'
-function BlockDescription({descrition}) {
+function BlockDescription({description}) {
   return (
     <> 
-      <p className={style.description}>{descrition}</p>
+      <p className={style.description}>{description}</p>
     </>
   )
 }
