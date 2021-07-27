@@ -1,6 +1,7 @@
 import React from 'react'
 import './common/style/reset.css'
 import About from './components/About'
+import Contacts from './components/Contacts'
 import Header from './components/Header'
 import MainPage from './components/MainPage'
 import Partners from './components/Partners'
@@ -16,6 +17,7 @@ function App () {
   <About />
   <Team />
   <Partners />
+  <Contacts />
   </>
 }
 
