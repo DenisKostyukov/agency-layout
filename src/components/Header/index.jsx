@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import MobileMenu from '../MobileMenu';
 import style from './Header.module.sass';
 import Logo from './Logo';
 import NavMenu from './NavMenu';
@@ -22,6 +23,7 @@ function Header () {
           <div className={style.headerInner}>
             <Logo />
             <NavMenu />
+            <MobileMenu />
           </div>
         </div>
       </header>
