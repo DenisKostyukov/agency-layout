@@ -16,9 +16,9 @@ function ContactsForm () {
       <Formik
         initialValues={initialValues}
         validationSchema={CONTACT_SCHEMA}
-        onSubmit={actions => {
+        onSubmit={(values, actions) => {
           actions.setSubmitting(false);
-          actions.resetForm();
+          actions.resetForm({values:initialValues});
         }}
       >
         {formikProps => {
