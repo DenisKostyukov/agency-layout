@@ -17,7 +17,6 @@ function TeamItem ({ image, name, post }) {
         <div className={style.content}>
           <h2 className={style.name}>{name}</h2>
           <p className={style.post}>{post}</p>
-          <div className={style.socials}>
             <div className={style.socialsList}>
               <a href='#!' className={style.link}>
                 <FontAwesomeIcon icon={faTwitter} />
@@ -28,7 +27,6 @@ function TeamItem ({ image, name, post }) {
               <a href='#!' className={style.link}>
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
-            </div>
           </div>
         </div>
       </div>
