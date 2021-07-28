@@ -11,7 +11,7 @@ import AboutItem from './AboutItem';
 function About () {
   return (
     <>
-      <section className={style.about}>
+      <section className={style.about} id="about">
         <div className='container'>
           <div className={style.aboutInner}>
             <BlockTitle title='about' />

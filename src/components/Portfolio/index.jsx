@@ -13,7 +13,7 @@ import '../../common/style/mainStyle.sass';
 function Portfolio () {
   return (
     <>
-      <section className={style.portfolio}>
+      <section className={style.portfolio} id="portfolio">
         <div className='container'>
           <div className={style.portfolioInner}>
             <BlockTitle title="portfolio"/>

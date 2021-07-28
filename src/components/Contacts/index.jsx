@@ -7,7 +7,7 @@ import '../../common/style/mainStyle.sass';
 function Contacts () {
   return (
     <>
-      <section className={style.contacts}>
+      <section className={style.contacts} id="contact">
         <div className='container'>
          <h1 className={style.title}>contacts us</h1>
           <BlockDescription description='Lorem ipsum dolor sit amet consectetur.' />

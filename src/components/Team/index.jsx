@@ -11,7 +11,7 @@ import TeamItem from './TeamItem';
 function Team () {
   return (
     <>
-      <section classname={style.team}>
+      <section classname={style.team} id="team">
         <div className='container'>
           <div className={style.teamInner}>
             <BlockTitle title='our amazing team' />

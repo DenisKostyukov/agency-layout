@@ -14,5 +14,4 @@ function AboutItem ({ image, date, title, description }) {
     </>
   );
 }
-
 export default AboutItem;

@@ -13,7 +13,7 @@ import style from './Services.module.sass';
 function Services () {
   return (
     <>
-      <section className={style.services}>
+      <section className={style.services} id="services">
         <div className='container'>
           <div className={style.servicesInner}>
             <BlockTitle title='services' />

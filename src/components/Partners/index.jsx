@@ -10,7 +10,7 @@ import '../../common/style/mainStyle.sass';
 function Partners () {
   return (
     <>
-      <section className={style.partners}>
+      <section className={style.partners} id="partners">
         <div className='container'>
           <div className={style.partnersInner}>
             <ul className={style.partnersList}>
